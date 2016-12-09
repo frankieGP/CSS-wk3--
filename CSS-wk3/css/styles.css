@@ -23,11 +23,10 @@ body {
   background-size: cover;
   background-position: center;
   display: inline-block;
-  background-color: red;
 }
 
 
-.opaque img{
+.opaque img {
   width: 80%;
   height: 10em;
   margin: auto;
@@ -42,6 +41,38 @@ body {
   margin: auto;
   display: block;
 }
+
+.buttons {
+  width: 80%;
+  margin: auto;
+  display: block;
+}
+
+.score {
+  color: white;
+  margin: auto;
+  margin-top: 5em;
+  width: 80%;
+  display: block;
+  border-top: 1px solid white;
+  padding-top: 1em;
+
+}
+/*.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}*/
+.views {
+  float: left;
+  display: inline;
+}
+.likes {
+  float: right;
+  display: inline;
+}
+
+
 
 .first {
   background-image: url("../img/lully3.jpg");
