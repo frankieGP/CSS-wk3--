@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+
+
+
+
+.wrapper {
+  width: 100vw;
+  margin: auto;
+}
+
+.col {
+  margin-top: -4px;
+  width: 100%;
+  height: 50em;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+  background-color: red;
+}
+
+
+.opaque img{
+  width: 80%;
+  height: 10em;
+  margin: auto;
+  margin-top: 50px;
+  display: block;
+  border: 3px solid white;
+}
+
+.text {
+  color: white;
+  width: 80%;
+  margin: auto;
+  display: block;
+}
+
+.first {
+  background-image: url("../img/lully3.jpg");
+
+
+
+}
+
+.second {
+  background-image: url("../img/willis2.jpg");
+}
+
+.third {
+  background-image: url("../img/kero2.jpg");
+}
+.fourth {
+  background-image: url("../img/bomba2.jpg");
+}
