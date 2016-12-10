@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-body {
+body, .container {
   margin: 0;
 }
 
@@ -10,8 +10,7 @@ body {
 
 
 
-.wrapper {
-  width: 100vw;
+.container {
   margin: auto;
 }
 
@@ -28,7 +27,7 @@ body {
 
 .opaque img {
   width: 80%;
-  height: 10em;
+  height: 12em;
   margin: auto;
   margin-top: 50px;
   display: block;
@@ -58,11 +57,7 @@ body {
   padding-top: 1em;
 
 }
-/*.clearfix::after {
-  content: "";
-  display: table;
-  clear: both;
-}*/
+
 .views {
   float: left;
   display: inline;
@@ -73,21 +68,85 @@ body {
 }
 
 
-
 .first {
-  background-image: url("../img/lully3.jpg");
-
-
 
 }
-
+.first {
+  position: relative;
+}
+.first::after {
+  background: url("../img/lully3.jpg");
+  height: 50em;
+  content: "";
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+}
 .second {
+  position: relative;
+}
+
+.second::after {
   background-image: url("../img/willis2.jpg");
+  height: 50em;
+  content: "";
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
 }
 
 .third {
+  position: relative;
+}
+.third::after {
   background-image: url("../img/kero2.jpg");
+  height: 50em;
+  content: "";
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
 }
 .fourth {
+  position: relative;
+  color: red;
+}
+.fourth::after {
   background-image: url("../img/bomba2.jpg");
+  height: 50em;
+  content: "";
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
 }
